@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charmify Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Charmify Dashboard</h1>
+        <div class="stats">
+            <div class="stat">
+                <h2>Charm Scores</h2>
+                <ul id="charm-scores"></ul>
+            </div>
+            <div class="stat">
+                <h2>Most Used Lines</h2>
+                <ul id="most-used-lines"></ul>
+            </div>
+            <div class="stat">
+                <h2>Progress Over Time</h2>
+                <canvas id="progress-chart"></canvas>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
